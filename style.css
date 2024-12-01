@@ -1,1 +1,55 @@
+*{
+    text-decoration: none;
+   
 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/3d-render-abstract-chaotic-elements_1048-15980.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+ 
+
+.logo {
+    font-size: 30px;  
+    font-weight: 900;
+    font-family: 'Arial Black', 'Impact', sans-serif;
+    color: white;  
+    display: inline-block; 
+    padding-right: 30px; 
+}
+.nav-menu{
+    background-color: #0f0f0f;
+    color:#ffffff;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 10px 30px;
+
+
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+
+}
+li a{
+    font-size: 18px;
+    color:white;
+    display: block;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0px 15px 0px 15px;
+}
+li a:hover{
+    color:red;
+    font-size: 20px;
+    
+}
